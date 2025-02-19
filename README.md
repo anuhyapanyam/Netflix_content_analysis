@@ -131,7 +131,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/content%20age%20variation%20by%20country.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/content%20age%20variation%20by%20country.png)
 
   > Content additions peaked in 2020, aligning with pandemic-driven demand.
   > The U.S. leads in content production.
@@ -141,7 +141,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 3. Geographical Distribution of Content
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/distribution%20of%20content%20by%20country.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/content%20age%20variation%20by%20country.png)
 
   > Top contributors: United States, India, UK, Japan, South Korea.
   > South Korea heavily favors TV shows, while India leans toward movies.
@@ -151,9 +151,9 @@ Insights into content trends, country distributions, ratings, and stock performa
 4. Top Genres and Ratings
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Top%20Genres.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/Top%20Genres.png)
 
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/ratings.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/ratings.png)
   
   > Drama, Comedy, and Action are the most popular genres.
   > High-rated content (IMDb 7+) dominates Netflix’s library.
@@ -163,7 +163,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 5. Netflix Stock Performance vs. Content Releases
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Stock%20Price%20vs%20Content%20Releases%20(Yearly).png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/Stock%20Price%20vs%20Content%20Releases%20(Yearly).png)
   
   > Increased content production aligns with stock price growth (2015-2020).
   > Post-2020 stock decline suggests external market influences.
@@ -173,7 +173,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 6. Monthly Release Patterns
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Content%20release%20patterns%20by%20month.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/Content%20release%20patterns%20by%20month.png)
 
   > Most content is added in July and December.
   > Holiday releases constitute a small percentage of total additions.
