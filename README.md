@@ -1,3 +1,5 @@
+![image]("C:\Users\panya\OneDrive\Desktop\Netflix_images\netflix.jpg")
+
 # Netflix-Content-Analysis
 ## __Table of Contents__ ##
 <ul>
