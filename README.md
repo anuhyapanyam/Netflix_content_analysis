@@ -57,8 +57,8 @@ This project was done in Python using Jupyter Notebooks.
 The libraries used are:
 * __Pandas and Numpy__: Data handling and transformation
 * __Matplotlib and Seaborn__: Visualization
-*__Scikit-learn__: Machine learning models
-*__Statsmodels__: Time series forecasting
+* __Scikit-learn__: Machine learning models
+* __Statsmodels__: Time series forecasting
 
 <hr>
 
