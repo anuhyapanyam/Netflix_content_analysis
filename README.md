@@ -28,18 +28,16 @@
 This project analyzes Netflix content trends, focusing on movies, TV shows, regional distributions, ratings, and financial performance. It aims to uncover insights into content preferences and Netflix’s market strategies.
 <br>
 
----The detailed notebook of the project is [here](Analyzing%20Netflix%20Data.ipynb).
-
 <hr>
 
 ## __About the dataset__ ##
 This project's dataset is an open-source data from __Kaggle__.
 <br>
 
----> [You can find it here.](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+> [You can find it here.](https://medium.com/@linhvu.nt/data-analysis-and-recommendations-on-netflix-content-28707163553a)
 
 <u>
-The dataset contains one "csv" file which has 7787 entries with the following information:
+The dataset contains one "csv" file which has 8,807 entries with the following information:
 </u>
 
 * __Type__: Movie or TV Show
@@ -113,7 +111,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 
   <ul>
   
-  ---![image](https://user-images.githubusercontent.com/70551007/222007443-a711f14f-7d65-4149-97bf-0f33afc9ae99.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Movies%20vs.%20TV%20Shows.png)
 
   > Majority of Netflix content consists of movies (~70%).
   > TV show releases have increased in recent years.
@@ -121,11 +119,11 @@ Insights into content trends, country distributions, ratings, and stock performa
   </ul>
 
 
-2. The growth of content creations over the years
+2. The content age variation by country over the years
 
   <ul>
   
-  ---![image](https://user-images.githubusercontent.com/70551007/222007386-455595d6-92fa-4f07-bf9b-733f9f85434a.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/content%20age%20variation%20by%20country.png)
 
   > Content additions peaked in 2020, aligning with pandemic-driven demand.
   > The U.S. leads in content production.
@@ -135,7 +133,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 3. Geographical Distribution of Content
   <ul>
   
-  ---![image](https://user-images.githubusercontent.com/70551007/222007273-1352b673-4c90-4e8d-a07c-445333d3be0d.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/distribution%20of%20content%20by%20country.png)
 
   > Top contributors: United States, India, UK, Japan, South Korea.
   > South Korea heavily favors TV shows, while India leans toward movies.
@@ -145,8 +143,10 @@ Insights into content trends, country distributions, ratings, and stock performa
 4. Top Genres and Ratings
   <ul>
   
-  ---![image](https://user-images.githubusercontent.com/70551007/222007153-a06c604d-2f47-44e7-acbb-9c53a5869854.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Top%20Genres.png)
 
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/ratings.png)
+  
   > Drama, Comedy, and Action are the most popular genres.
   > High-rated content (IMDb 7+) dominates Netflix’s library.
   
@@ -155,7 +155,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 5. Netflix Stock Performance vs. Content Releases
   <ul>
   
-  ---![image](https://user-images.githubusercontent.com/70551007/222006781-0a5e77a2-6564-41c1-9d86-eba8100c9341.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Stock%20Price%20vs%20Content%20Releases%20(Yearly).png)
   
   > Increased content production aligns with stock price growth (2015-2020).
   > Post-2020 stock decline suggests external market influences.
@@ -165,7 +165,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 6. Monthly Release Patterns
   <ul>
   
-  ---![image](https://user-images.githubusercontent.com/70551007/222006721-3aaac1cc-3851-4a1a-b752-9ff7ce5ddd09.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Content%20release%20patterns%20by%20month.png)
 
   > Most content is added in July and December.
   > Holiday releases constitute a small percentage of total additions.
