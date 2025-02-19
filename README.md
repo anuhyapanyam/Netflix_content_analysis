@@ -42,7 +42,7 @@ By leveraging data analysis, visualization, and machine learning, the project pr
 This project's dataset is an open-source data from __Kaggle__.
 <br>
 
-> [You can find it here.](https://medium.com/@linhvu.nt/data-analysis-and-recommendations-on-netflix-content-28707163553a)
+> [You can access it through this link.](https://medium.com/@linhvu.nt/data-analysis-and-recommendations-on-netflix-content-28707163553a)
 
 <u>
 The dataset contains one "csv" file which has 8,807 entries with the following information:
