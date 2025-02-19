@@ -95,7 +95,7 @@ After exploring the data, checked it if there are any issues.
 1. Handling missing values:
   
     * Missing ratings were replaced with "Unrated."
-    * date_added standardized to datetime format.
+    * __date_added__ standardized to datetime format.
 
 2. Removing duplicates and invalid data.
 
