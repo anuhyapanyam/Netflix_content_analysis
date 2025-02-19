@@ -25,13 +25,10 @@
 <hr>
 
 ## __About the project__ ##
-This project is a self-study project, its main objective is to help me practice on a real dataset and strength my analysis skills in Python.
+This project analyzes Netflix content trends, focusing on movies, TV shows, regional distributions, ratings, and financial performance. It aims to uncover insights into content preferences and Netflix’s market strategies.
 <br>
 
-It is about cleaning and analyzing Netflix movies and tv shows data, and getting insights about the countries where they were filmed, their ratings and release years.
-<br>
-
-The detailed notebook of the project is [here](Analyzing%20Netflix%20Data.ipynb).
+---The detailed notebook of the project is [here](Analyzing%20Netflix%20Data.ipynb).
 
 <hr>
 
@@ -39,7 +36,7 @@ The detailed notebook of the project is [here](Analyzing%20Netflix%20Data.ipynb)
 This project's dataset is an open-source data from __Kaggle__.
 <br>
 
-> [You can find it here.](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+---> [You can find it here.](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 <u>
 The dataset contains one "csv" file which has 7787 entries with the following information:
@@ -47,14 +44,11 @@ The dataset contains one "csv" file which has 7787 entries with the following in
 
 * __Type__: Movie or TV Show
 * __Title__: The name of the movie/tv show
-* __Director__
-* __Cast__: The names of the movie/tv show's cast
 * __Country__: The country(s) which this movie/tv show was filmed
 * __Date added__: The date when the movie/tv show was added on Netflix
 * __Release year__
 * __Rating__: Age-based media reviews
 * __Duration__: The number of minutes for movies or number of seasons for tv shows
-* __Listed in__: The category(s) which this movie/tv show is listed in
 * __Description__: A sentence which describes this movie/tv show on Netflix
 
 <hr>
@@ -63,8 +57,10 @@ The dataset contains one "csv" file which has 7787 entries with the following in
 This project was done in Python using Jupyter Notebooks.
 
 The libraries used are:
-* __Pandas and Numpy__: for exploration, cleaning and analysis
-* __Matplotlib and Seaborn__: for visualizations
+* __Pandas and Numpy__: Data handling and transformation
+* __Matplotlib and Seaborn__: Visualization
+*__Scikit-learn__: Machine learning models
+*__Statsmodels__: Time series forecasting
 
 <hr>
 
@@ -73,12 +69,12 @@ The libraries used are:
 
 <ul>
 
-After reading the data I have to explore it, its columns, and the info it contains. So, I've gained information about:
+After analyzing the data I explored its columns, and the info it contains.
 
-1. The dataset size
+1. Understanding dataset size and structure.
 2. The datatypes of the columns
-3. What each column represents
-4. What are the information inside the categorized columns such as  __type__, __listed_in__, __rating__ and __country__.
+3. Identifying key trends in content distribution.
+4. Analyzing content categories, country contributions, and rating distributions.
 
 </ul>
 
@@ -88,24 +84,18 @@ After reading the data I have to explore it, its columns, and the info it contai
 
 <ul>
 
-After exploring the data, I need to check it if there are any issues.
+After exploring the data, checked it if there are any issues.
 
-1. Search for duplicates
+1. Handling missing values:
   
-    * Fortunately, it has no duplicates.
+    * Missing ratings were replaced with "Unrated."
+    * date_added standardized to datetime format.
 
-2. Search for nulls
+2. Removing duplicates and invalid data.
 
-    2.1. Columns with few nulls
+3. Adding computed columns:
 
-   * Solution 1: Get the missing information by searching for them
-   * Solution 2: Drop them
-    
-    2.2. Columns with many nulls
-
-    * Solution: I wasn't interested in those columns so I left them as they're
-
-3. Change the incorrect datatypes into appropriate datatypes
+   * __content_age__: Difference between 2024 and __release_year__.
 
 </ul>
 
@@ -116,16 +106,17 @@ After exploring the data, I need to check it if there are any issues.
 <ul>
 
 <u>
-The questions I was interested to know are:
+Insights into content trends, country distributions, ratings, and stock performance.
 </u>
 
-1. The percentage of movies and tv shows in this data
+1. The percentage of Movies vs. TV Shows Trend
 
   <ul>
   
-  ![image](https://user-images.githubusercontent.com/70551007/222007443-a711f14f-7d65-4149-97bf-0f33afc9ae99.png)
+  ---![image](https://user-images.githubusercontent.com/70551007/222007443-a711f14f-7d65-4149-97bf-0f33afc9ae99.png)
 
-  > The dataset has 70.7% of its entries movies and the rest are tv shows.
+  > Majority of Netflix content consists of movies (~70%).
+  > TV show releases have increased in recent years.
   
   </ul>
 
@@ -134,54 +125,50 @@ The questions I was interested to know are:
 
   <ul>
   
-  ![image](https://user-images.githubusercontent.com/70551007/222007386-455595d6-92fa-4f07-bf9b-733f9f85434a.png)
+  ---![image](https://user-images.githubusercontent.com/70551007/222007386-455595d6-92fa-4f07-bf9b-733f9f85434a.png)
 
-  > The results shows that the year which has the highest number of content creations is 2018 which means that the data may be not complete.
+  > Content additions peaked in 2020, aligning with pandemic-driven demand.
+  > The U.S. leads in content production.
   
   </ul>
 
-3. Monitor content creations along the months
+3. Geographical Distribution of Content
   <ul>
   
-  ![image](https://user-images.githubusercontent.com/70551007/222007273-1352b673-4c90-4e8d-a07c-445333d3be0d.png)
+  ---![image](https://user-images.githubusercontent.com/70551007/222007273-1352b673-4c90-4e8d-a07c-445333d3be0d.png)
 
-  > December is the month when the highest number of content occurs.
+  > Top contributors: United States, India, UK, Japan, South Korea.
+  > South Korea heavily favors TV shows, while India leans toward movies.
   
   </ul>
 
-4. The oldest 10 tv series and movies
+4. Top Genres and Ratings
   <ul>
   
-  4.1. The oldest 10 tv shows
-  
-  ![image](https://user-images.githubusercontent.com/70551007/222007153-a06c604d-2f47-44e7-acbb-9c53a5869854.png)
+  ---![image](https://user-images.githubusercontent.com/70551007/222007153-a06c604d-2f47-44e7-acbb-9c53a5869854.png)
 
-  4.2. The oldest 10 movies
+  > Drama, Comedy, and Action are the most popular genres.
+  > High-rated content (IMDb 7+) dominates Netflix’s library.
   
-  ![image](https://user-images.githubusercontent.com/70551007/222007184-d4adfe53-377f-4444-bc8a-a70e44317a75.png)
-
   </ul>
 
-5. The highest 10 countries contributed in contect creation
+5. Netflix Stock Performance vs. Content Releases
   <ul>
   
-  ![image](https://user-images.githubusercontent.com/70551007/222006781-0a5e77a2-6564-41c1-9d86-eba8100c9341.png)
+  ---![image](https://user-images.githubusercontent.com/70551007/222006781-0a5e77a2-6564-41c1-9d86-eba8100c9341.png)
   
-  > United States is the top 1 country contributed in both movies and tv shows
+  > Increased content production aligns with stock price growth (2015-2020).
+  > Post-2020 stock decline suggests external market influences.
   
   </ul>
   
-6. The most frequenct categories
+6. Monthly Release Patterns
   <ul>
   
-  ![image](https://user-images.githubusercontent.com/70551007/222006721-3aaac1cc-3851-4a1a-b752-9ff7ce5ddd09.png)
+  ---![image](https://user-images.githubusercontent.com/70551007/222006721-3aaac1cc-3851-4a1a-b752-9ff7ce5ddd09.png)
 
-  </ul>
-
-7. Number of movies and tv shows by MPA rating for top 10 MPA ratings
-  <ul>
-  
-  ![image](https://user-images.githubusercontent.com/70551007/222007002-48d47f5d-ce4d-457f-85d5-ccee0a769532.png)
+  > Most content is added in July and December.
+  > Holiday releases constitute a small percentage of total additions.
 
   </ul>
 
