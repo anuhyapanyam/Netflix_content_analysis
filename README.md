@@ -1,4 +1,4 @@
-![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/netflix.png)
+![image]("C:\Users\panya\OneDrive\Desktop\Netflix_images\netflix.jpg")
 
 # Netflix-Content-Analysis
 ## __Table of Contents__ ##
