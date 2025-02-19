@@ -148,7 +148,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 3. Geographical Distribution of Content
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/content%20age%20variation%20by%20country.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/distribution%20of%20content%20by%20country.png)
 
   > Top contributors: United States, India, UK, Japan, South Korea.
   > South Korea heavily favors TV shows, while India leans toward movies.
