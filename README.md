@@ -119,7 +119,7 @@ Insights into content trends, country distributions, ratings, and stock performa
 
   <ul>
   
-  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Movies%20vs.%20TV%20Shows.png)
+  ![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/Movies%20vs.%20TV%20Shows.png)
 
   > Majority of Netflix content consists of movies (~70%).
   > TV show releases have increased in recent years.
