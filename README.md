@@ -2,7 +2,7 @@
 
 <ul>
 
-![download](C:\Users\panya\OneDrive\Desktop\Netflix_images\netflix.png)
+![image](https://github.com/anuhyapanyam/Netflix_content_analysis/blob/main/Images/netflix.png)
 
 <ul>
 
