@@ -2,7 +2,7 @@
 
 <ul>
 
-![image](C:\Users\panya\OneDrive\Desktop\Netflix_images\netflix.jpg)
+![image](C:\Users\panya\OneDrive\Desktop\Netflix_images\netflix.png)
 
 <ul>
 
